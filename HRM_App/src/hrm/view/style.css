@@ -1,0 +1,27 @@
+#borderApp{
+    -fx-background-image: url("LoginBackground.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.text-field{
+	-fx-background-radius: 10;
+}
+
+.button{
+	-fx-background-radius: 10;
+}
+
+#cboxDepartment{
+	-fx-background-radius: 10;
+}
+
+.tab *.tab-label {
+    -fx-rotate: 90;
+}
+
+.tab {
+    -fx-padding: 2em 0.1em 2em 0.1em;
+}
